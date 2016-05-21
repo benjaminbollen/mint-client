@@ -6,9 +6,9 @@ import (
 
 	"github.com/eris-ltd/mint-client/mintx/core"
 
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/common/go/common"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/wire"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/spf13/cobra"
+	"github.com/eris-ltd/common/go/common"
+	"github.com/eris-ltd/tendermint/wire"
+	"github.com/spf13/cobra"
 )
 
 func cliSend(cmd *cobra.Command, args []string) {

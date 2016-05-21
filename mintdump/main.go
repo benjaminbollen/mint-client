@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"path"
 
-	. "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/common/go/common"
-	cfg "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/config"
-	tmcfg "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/config/tendermint"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/spf13/cobra"
+	. "github.com/eris-ltd/common/go/common"
+	cfg "github.com/eris-ltd/tendermint/config"
+	tmcfg "github.com/eris-ltd/tendermint/config/tendermint"
+	"github.com/spf13/cobra"
 	"os"
 )
 

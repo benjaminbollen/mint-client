@@ -13,13 +13,13 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/common/go/common"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/account"
-	ptypes "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/permission/types"
-	stypes "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/state/types"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/types"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/wire"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/spf13/cobra"
+	. "github.com/eris-ltd/common/go/common"
+	"github.com/eris-ltd/tendermint/account"
+	ptypes "github.com/eris-ltd/tendermint/permission/types"
+	stypes "github.com/eris-ltd/tendermint/state/types"
+	"github.com/eris-ltd/tendermint/types"
+	"github.com/eris-ltd/tendermint/wire"
+	"github.com/spf13/cobra"
 )
 
 //------------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+package: github.com/eris-ltd/mint-client
+import:
+- package: github.com/eris-ltd/common
+  subpackages:
+  - go/common
+  - go/log
+- package: github.com/eris-ltd/eris-keys
+  subpackages:
+  - crypto
+- package: github.com/eris-ltd/tendermint
+  subpackages:
+  - account
+  - blockchain
+  - common
+  - config
+  - config/tendermint
+  - db
+  - merkle
+  - permission/types
+  - rpc/core/types
+  - rpc/core_client
+  - state
+  - state/types
+  - types
+  - wire
+- package: github.com/spf13/cobra
+- package: github.com/tendermint/ed25519
+- package: github.com/wayn3h0/go-uuid

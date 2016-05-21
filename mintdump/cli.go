@@ -7,15 +7,15 @@ import (
 	"io/ioutil"
 	"os"
 
-	. "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/common/go/common"
+	. "github.com/eris-ltd/common/go/common"
 
-	acm "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/account"
-	dbm "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/db"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/merkle"
-	sm "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/state"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/types"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/wire"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/spf13/cobra"
+	acm "github.com/eris-ltd/tendermint/account"
+	dbm "github.com/eris-ltd/tendermint/db"
+	"github.com/eris-ltd/tendermint/merkle"
+	sm "github.com/eris-ltd/tendermint/state"
+	"github.com/eris-ltd/tendermint/types"
+	"github.com/eris-ltd/tendermint/wire"
+	"github.com/spf13/cobra"
 )
 
 //------------------------------------------------------------------------------
