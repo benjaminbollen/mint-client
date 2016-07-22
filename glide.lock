@@ -1,0 +1,241 @@
+hash: f29ba0c0bf377aaa94ca06ce2a7e5b6180c74aa5e001592855bc2ca3c040fea9
+updated: 2016-05-20T21:58:48.911183058-05:00
+imports:
+- name: github.com/agl/ed25519
+  version: d2b94fd789ea21d12fac1a4443dd3a3f79cda72c
+  subpackages:
+  - edwards25519
+- name: github.com/Azure/go-ansiterm
+  version: 388960b655244e76e24c75f48631564eaefade62
+  subpackages:
+  - winterm
+- name: github.com/btcsuite/btcd
+  version: f893558d782396f10c2fe49a8bc73deff4a36d14
+  subpackages:
+  - btcec
+- name: github.com/btcsuite/fastsha256
+  version: 302ad4db268b46f9ebda3078f6f7397f96047735
+- name: github.com/bugsnag/bugsnag-go
+  version: 0d5b6e579efe7c6f2dc142602672061c29fcc133
+  subpackages:
+  - errors
+- name: github.com/bugsnag/osext
+  version: 0dd3f918b21bec95ace9dc86c7e70266cfc5c702
+- name: github.com/bugsnag/panicwrap
+  version: d6191e27ad06236eaad65d79e49a08b03b9f8029
+- name: github.com/BurntSushi/toml
+  version: f0aeabca5a127c4078abb8c8d64298b147264b55
+- name: github.com/docker/docker
+  version: 52debcd58ac91bf68503ce60561536911b74ff05
+  subpackages:
+  - pkg/term
+  - pkg/system
+  - pkg/term/windows
+- name: github.com/docker/go-units
+  version: 5d2041e26a699eaca682e2ea41c8f891e1060444
+- name: github.com/eris-ltd/common
+  version: 542be3706781c7612318807507eb1e1a4a8b1bc1
+  subpackages:
+  - go/common
+  - go/log
+- name: github.com/eris-ltd/eris-keys
+  version: a6abd41429e08802098165b32f81edb5a24cc025
+  subpackages:
+  - crypto
+  - Godeps/_workspace/src/github.com/eris-ltd/tendermint/account
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid
+  - Godeps/_workspace/src/golang.org/x/crypto/ripemd160
+  - Godeps/_workspace/src/golang.org/x/crypto/scrypt
+  - crypto/ed25519
+  - crypto/randentropy
+  - crypto/secp256k1
+  - crypto/sha3
+  - Godeps/_workspace/src/github.com/eris-ltd/tendermint/common
+  - Godeps/_workspace/src/github.com/eris-ltd/tendermint/merkle
+  - Godeps/_workspace/src/github.com/eris-ltd/tendermint/permission/types
+  - Godeps/_workspace/src/github.com/eris-ltd/tendermint/wire
+  - Godeps/_workspace/src/github.com/tendermint/ed25519
+  - Godeps/_workspace/src/github.com/tendermint/ed25519/extra25519
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid/internal/dcesecurity
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid/internal/layout
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid/internal/namebased
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid/internal/namebased/md5
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid/internal/namebased/sha1
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid/internal/random
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid/internal/timebased
+  - Godeps/_workspace/src/github.com/wayn3h0/go-uuid/internal/version
+  - Godeps/_workspace/src/golang.org/x/crypto/pbkdf2
+  - Godeps/_workspace/src/github.com/agl/ed25519/edwards25519
+  - Godeps/_workspace/src/github.com/tendermint/log15
+  - Godeps/_workspace/src/github.com/eris-ltd/tendermint/db
+  - Godeps/_workspace/src/github.com/eris-ltd/tendermint/logger
+  - Godeps/_workspace/src/github.com/inconshreveable/log15/stack
+  - Godeps/_workspace/src/github.com/inconshreveable/log15/term
+  - Godeps/_workspace/src/github.com/mattn/go-colorable
+  - Godeps/_workspace/src/github.com/eris-ltd/tendermint/config
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/errors
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/opt
+  - Godeps/_workspace/src/github.com/mattn/go-isatty
+  - Godeps/_workspace/src/github.com/naoina/toml
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/cache
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/filter
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/iterator
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/journal
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/memdb
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/storage
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/table
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util
+  - Godeps/_workspace/src/github.com/naoina/go-stringutil
+  - Godeps/_workspace/src/github.com/naoina/toml/ast
+  - Godeps/_workspace/src/github.com/syndtr/gosnappy/snappy
+- name: github.com/eris-ltd/tendermint
+  version: b0c1ee2c3ad851cf4e7b9dc95c2e65559e5d447d
+  subpackages:
+  - account
+  - blockchain
+  - common
+  - config
+  - config/tendermint
+  - db
+  - merkle
+  - permission/types
+  - rpc/core/types
+  - rpc/core_client
+  - state
+  - state/types
+  - types
+  - wire
+- name: github.com/go-stack/stack
+  version: 100eb0c0a9c5b306ca2fb4f165df21d80ada4b82
+- name: github.com/golang/protobuf
+  version: cd85f19845cc96cc6e5269c894d8cd3c67e9ed83
+  subpackages:
+  - proto
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/mattn/go-colorable
+  version: d67e0b7d1797975196499f79bcc322c08b9f218b
+- name: github.com/mattn/go-isatty
+  version: fdbe02a1b44e75977b2690062b83cf507d70c013
+- name: github.com/mitchellh/go-homedir
+  version: 981ab348d865cf048eb7d17e78ac7192632d8415
+- name: github.com/Sirupsen/logrus
+  version: 57cce1ed6103dce7791881d3e69e55f90d986aa5
+- name: github.com/spf13/cobra
+  version: f368244301305f414206f889b1735a54cfc8bde8
+- name: github.com/spf13/pflag
+  version: cb88ea77998c3f024757528e3305022ab50b43be
+- name: github.com/syndtr/goleveldb
+  version: 63c9e642efad852f49e20a6f90194cae112fd2ac
+  subpackages:
+  - leveldb
+  - leveldb/cache
+  - leveldb/comparer
+  - leveldb/errors
+  - leveldb/filter
+  - leveldb/iterator
+  - leveldb/journal
+  - leveldb/memdb
+  - leveldb/opt
+  - leveldb/storage
+  - leveldb/table
+  - leveldb/util
+- name: github.com/syndtr/gosnappy
+  version: 156a073208e131d7d2e212cb749feae7c339e846
+  subpackages:
+  - snappy
+- name: github.com/tendermint/ed25519
+  version: 533fb6548e2071076888eda3c38749d707ba49bc
+  subpackages:
+  - edwards25519
+  - extra25519
+- name: github.com/tendermint/flowcontrol
+  version: 84d9671090430e8ec80e35b339907e0579b999eb
+- name: github.com/tendermint/go-common
+  version: dcfa46af1341d03b80d32e4901019d1668b978b9
+- name: github.com/tendermint/go-config
+  version: cfcef384d64b94e50909596e39b32ffb3cc20573
+- name: github.com/tendermint/go-crypto
+  version: 41cfb7b677f4e16cdfd22b6ce0946c89919fbc7b
+- name: github.com/tendermint/go-db
+  version: 31fdd21c7eaeed53e0ea7ca597fb1e960e2988a5
+- name: github.com/tendermint/go-events
+  version: 7b75ca7bb55aa25e9ef765eb8c0b69486b227357
+- name: github.com/tendermint/go-logger
+  version: 529efe50eab1a8a9c111d55f4de4ecd95f482761
+- name: github.com/tendermint/go-merkle
+  version: 05042c6ab9cad51d12e4cecf717ae68e3b1409a8
+- name: github.com/tendermint/go-p2p
+  version: 5bd7692323ec60d6461678f09b5024a952164151
+  subpackages:
+  - upnp
+- name: github.com/tendermint/go-rpc
+  version: 1d9e89812adc202811b7fb8e9e0837e73adadb43
+  subpackages:
+  - types
+- name: github.com/tendermint/go-wire
+  version: 3b0adbc86ed8425eaed98516165b6788d9f4de7a
+- name: github.com/tendermint/log15
+  version: ""
+  subpackages:
+  - term
+- name: github.com/tendermint/tendermint
+  version: 270051003924c76f92716f4395d5d8522d9a5143
+  subpackages:
+  - proxy
+  - types
+  - state
+  - account
+  - state/types
+  - wire
+  - Godeps/_workspace/src/github.com/tendermint/ed25519
+  - Godeps/_workspace/src/github.com/tendermint/ed25519/extra25519
+  - Godeps/_workspace/src/golang.org/x/crypto/ripemd160
+  - common
+  - merkle
+  - permission/types
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/errors
+  - Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/opt
+  - config
+  - Godeps/_workspace/src/code.google.com/p/go.crypto/ripemd160
+  - db
+  - Godeps/_workspace/src/github.com/tendermint/log15
+  - logger
+  - Godeps/_workspace/src/github.com/gorilla/websocket
+  - rpc/core/types
+  - rpc/types
+- name: github.com/tendermint/tmsp
+  version: 7ffd2899092f47110a5ffebe20247a9b7f80f4ad
+  subpackages:
+  - types
+  - client
+- name: github.com/wayn3h0/go-uuid
+  version: 1622016a49b50139b1ac263e6ef2804226b3dec6
+  subpackages:
+  - internal/dcesecurity
+  - internal/layout
+  - internal/namebased
+  - internal/namebased/md5
+  - internal/namebased/sha1
+  - internal/random
+  - internal/timebased
+  - internal/version
+- name: golang.org/x/crypto
+  version: 1f22c0103821b9390939b6776727195525381532
+  subpackages:
+  - ripemd160
+  - nacl/secretbox
+  - openpgp/armor
+  - nacl/box
+  - poly1305
+  - salsa20/salsa
+  - openpgp/errors
+  - curve25519
+- name: golang.org/x/sys
+  version: 5eaf0df67e70d6997a9fe0ed24383fa1b01638d3
+  subpackages:
+  - unix
+devImports: []

@@ -1,11 +1,11 @@
 package main
 
 import (
-	bc "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/blockchain"
-	. "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/common"
-	dbm "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/db"
-	sm "github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/state"
-	"github.com/eris-ltd/mint-client/Godeps/_workspace/src/github.com/eris-ltd/tendermint/types"
+	bc "github.com/eris-ltd/tendermint/blockchain"
+	. "github.com/eris-ltd/tendermint/common"
+	dbm "github.com/eris-ltd/tendermint/db"
+	sm "github.com/eris-ltd/tendermint/state"
+	"github.com/eris-ltd/tendermint/types"
 )
 
 func main() {
